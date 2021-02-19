@@ -20,7 +20,6 @@ class List extends React.Component {
   static defaultProps = {
     description: settings.defaultListDescription,
   }
-  
   addColumn(title){
     this.setState(state => (
       {
