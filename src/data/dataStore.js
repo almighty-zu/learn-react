@@ -10,8 +10,23 @@ export const settings = {
     defaultText: 'Search...',
     icon: 'search',
   },
+  header: {
+    defaultIcon: 'fas fa-cat',
+  },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+};
+
+export const FaqContents = {
+  title: 'Questions u asked',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  description: 'blablabla',
+};
+
+export const InfoContents = {
+  title: 'Few things about my app',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  description: 'blablabla',
 };
 
 export const pageContents = {
