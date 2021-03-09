@@ -94,6 +94,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Things to do <sup>soon!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-3',
+    title: 'Things to do <sup>soon!</sup>',
+    description: 'Interesting things I want to check out!',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
 ];
 
 const columns = [
@@ -118,10 +130,29 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'Games',
+    icon: 'gamepad',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Movies',
+    icon: 'film',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-3',
+    title: 'Games',
+    icon: 'gamepad',
+  },
+  {
+    id: 'column-7',
+    listId: 'list-3',
+    title: 'Movies',
+    icon: 'film',
   },
 ];
+
 
 const cards = [
   {
@@ -154,7 +185,29 @@ const cards = [
     columnId: 'column-3',
     title: 'Skyrim',
   },
+  {
+    id: 'card-6',
+    columnId: 'column-4',
+    title: 'Skyrim',
+  },
+  {
+    id: 'card-5',
+    columnId: 'column-5',
+    title: 'The Witcher',
+  },
+  {
+    id: 'card-4',
+    columnId: 'column-6',
+    title: 'Star Wars',
+  },
+  {
+    id: 'card-3',
+    columnId: 'column-7',
+    title: 'Harry Potter',
+  },
 ];
+
+
 
 const initialStoreData = {
   app: {...pageContents},
